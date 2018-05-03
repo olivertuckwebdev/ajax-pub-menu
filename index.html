@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>AJAX Pub Menu</title>
+</head>
+<body class="bg-light">
+  <header class="py-5">
+    <div class="container">
+      <h1 class="mb-0 display-4">AJAX Pub Menu</h1>
+    </div>
+  </header>
+  <main class="pb-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-sm-row mb-3">
+        <input type="button" class="btn btn-warning" id="weekdayMenu" value="Weekday menu">
+        <input type="button" class="mt-2 mt-sm-0 ml-sm-2 btn btn-warning" id="saturdayMenu" value="Saturday menu">
+        <input type="button" class="mt-2 mt-sm-0 ml-sm-2 btn btn-warning" id="sundayMenu" value="Sunday menu">
+      </div>
+      <h2 id="menuTitle"></h2>
+      <ul class="list-group" id="menu"></ul>
+      <div class="row">
+        <div class="col-md-6 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="mb-3">Search</h3>
+              <input type="search" class="mb-2 form-control" id="searchField">
+              <ul class="list-group" id="searchResults"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-3">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="mb-3">Gallery</h3>
+              <img class="d-block img-fluid img-thumbnail mx-auto mb-3" id="imgElement" src="" alt="">
+              <button type="button" class="d-block mx-auto btn btn-light" id="playBtn" style="display: none !important;"><i class="fas fa-play"></i></button>
+              <button type="button" class="d-block mx-auto btn btn-light" id="pauseBtn"><i class="fas fa-pause"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

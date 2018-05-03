@@ -1,0 +1,32 @@
+{
+  "Freshly made soup of the day": {
+    "name": "Freshly made soup of the day",
+    "description": "Warm bread & butter",
+    "price": 5.50,
+    "vegetarian": true
+  },
+  "Thai style fishcakes": {
+    "name": "Thai style fishcakes",
+    "description": "Soy, honey & ginger dipping sauce",
+    "price": 7.25,
+    "vegetarian": false
+  },
+  "Hot and spicy buffalo wings": {
+    "name": "Hot and spicy buffalo wings",
+    "description": "Cool natural yoghurt with chives & mint, dressed leaf",
+    "price": 6.25,
+    "vegetarian": false
+  },
+  "10oz gammon steak": {
+    "name": "10oz gammon steak",
+    "description": "Fried free range eggs, garden peas & chips",
+    "price": 12.95,
+    "vegetarian": false
+  },
+  "Superfood salad": {
+    "name": "Superfood salad",
+    "description": "Courgette, kale, carrot, spinach, herb infused giant cous-cous, dried apricot, mixed nuts & seeds",
+    "price": 9.95,
+    "vegetarian": true
+  }
+}

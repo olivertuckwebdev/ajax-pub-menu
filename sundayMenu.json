@@ -1,0 +1,32 @@
+{
+  "Fish and chips": {
+    "name": "Fish and chips",
+    "description": "Fresh fillet of cod in a crisp ale batter, crushed minted peas, chips & homemade tartare sauce",
+    "price": 13.95,
+    "vegetarian": false
+  },
+  "Beetroot & goats cheese tortelloni": {
+    "name": "Beetroot & goats cheese tortelloni",
+    "description": "Buerre noisette, pine nuts & pea shoots",
+    "price": 11.95,
+    "vegetarian": true
+  },
+  "Wholetail scampi": {
+    "name": "Wholetail scampi",
+    "description": "Chips, garden peas & homemade tartare sauce",
+    "price": 10.95,
+    "vegetarian": false
+  },
+  "House burger": {
+    "name": "House burger",
+    "description": "Half pound beef burger or breaded chicken breast, lettuce & tomato in a toasted rustic pain roll, tomato salsa, skin on fries",
+    "price": 12.95,
+    "vegetarian": false
+  },
+  "Panko breaded goats cheese": {
+    "name": "Panko breaded goats cheese",
+    "description": "Rhubarb & sweet onion relish, dressed watercress & rocket salad with balsamic glaze",
+    "price": 6.75,
+    "vegetarian": true
+  }
+}

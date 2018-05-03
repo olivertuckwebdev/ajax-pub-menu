@@ -1,0 +1,32 @@
+{
+  "Cajun chicken wrap": {
+    "name": "Cajun chicken wrap",
+    "description": "Chicken fillet in a 12 spiced Cajun rub, mayonnaise, tomato & lettuce",
+    "price": 7.95,
+    "vegetarian": false
+  },
+  "Beef burger": {
+    "name": "Beef burger",
+    "description": "Lettuce, tomato & skinny fries",
+    "price": 8.95,
+    "vegetarian": false
+  },
+  "Rustica pizza": {
+    "name": "Rustica pizza",
+    "description": "Crisp tomato base, white mozzarella & basil",
+    "price": 8.95,
+    "vegetarian": true
+  },
+  "Seabass": {
+    "name": "Seabass",
+    "description": "A grilled fillet, patatas bravas & aioli",
+    "price": 9.95,
+    "vegetarian": false
+  },
+  "Spring vegetable tagliatelle": {
+    "name": "Spring vegetable tagliatelle",
+    "description": "Pea, asparagus, spinach & brie",
+    "price": 8.50,
+    "vegetarian": true
+  }
+}
